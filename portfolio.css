@@ -1,0 +1,148 @@
+/** {
+	border: 1px dashed red;
+}*/
+
+body { 
+	padding-top: 70px; 
+	font-family: Coda, arial, sans-serif;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	background-color: white;
+	background-image: url("https://source.unsplash.com/8OyKWQgBsKQ");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: 50px;
+}
+
+.subheadings {
+	font-size: 3.5rem;
+	margin: 30px 0 30px 0;
+}
+
+#about, #portfolio, #contacts {
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	border-radius: 6px;
+	margin: 20px 0 20px 0;
+	background-image: url("https://source.unsplash.com/8OyKWQgBsKQ");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.backgroundOpacity {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+}
+
+#myPhoto {
+	margin: 0px auto;
+
+}
+
+.progress {
+	height: 25px;
+	margin: 1.5%;
+}
+
+.progress-bar {
+	padding: 0.75%;
+}
+
+#aboutMe {
+	margin-bottom: 20px;
+}
+
+.jumbotron, .subheadings, .skillsList, #aboutMe, .thumbnail .caption, #footer, #socialButtons {
+	text-align: center;
+}
+
+#contactMeBlock {
+	margin-bottom: 50px;
+}
+
+.contactsBoxHeader, #aboutMe {
+	text-align: center;
+	font-size: 18px;
+	padding: 10px;
+	border: 1px dashed grey;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+#socialButtons {
+	font-size: 60px;
+}
+
+.socialIcons {
+	color: black;
+}
+
+a .socialIcons:hover {
+	color: grey;
+	font-size: 65px;
+}
+
+.thumbnail:hover>img {
+	transform: scale(1.2);
+	transition-duration: 1.5s;
+	-webkit-transform: scale(1.2);
+	-webkit-transition-duration: 1.5s;
+	-moz-transform: scale(1.2);
+	-moz-transition-duration: 1.5s;
+}
+
+.thumbnail {
+	overflow: hidden;
+}
+
+.col-xs-1 .btn {
+	margin-top: 4px;
+}
+
+.col-xs-1 .btn:hover {
+	transform: scaleX(-1);
+	transition: 0.75s;
+	-webkit-transform: scaleX(-1);
+	-webkit-transition: 0.75s;
+	-moz-transform: scaleX(-1);
+	-moz-transition: 0.75s;
+}
+
+@media only screen and (max-width: 768px) {
+ .subheadings {
+	font-size: 2.5rem;
+	}
+ #aboutMe {
+	font-size: 16px;
+	}
+
+ .galleryHeadings {
+ 	font-size: 20px;
+ }
+
+ .contactsBoxHeader {
+ 	font-size: 16px;
+ }
+
+ #footer {
+ 	font-size: 12px;
+ }
+
+ #socialButtons {
+	font-size: 40px;
+}
+
+a .socialIcons:hover {
+	color: grey;
+	font-size: 45px;
+}
+
+}
